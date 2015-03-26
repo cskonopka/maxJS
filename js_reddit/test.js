@@ -1,13 +1,20 @@
 var http = require('http');
-// var fs = require('fs');
-// var request = require('request');
-// var  curl = require('node-curl');
+var fs = require('fs');
+var request = require('request');
+var  curl = require('node-curl');
 var Reddit = require('handson-reddit'); // working title
 
 reddit = new Reddit();
 
 http.createServer(function (req, res) {
     res.writeHead(200, {'Content-Type': 'text/plain'});  
+
+
+
+}).listen(8080);
+
+
+
 
 reddit.r('tifu', function (err, results) {
 
@@ -16,9 +23,12 @@ reddit.r('tifu', function (err, results) {
 // console.log(results.body);
 // fileObject = Object.keys(results.body);
 
-var children = Object.keys(results); 
-console.log(results.body[1].data);
-
+// var children = Object.keys(results.body.data); 
+// console.log(results.body[1].data);
+var children =results.body.data;
+console.log(results.body.data);
+  var parsing = JSON.parse(children);
+  console.log(parsing);
 
 	// console.log(results.body);
 
@@ -30,13 +40,6 @@ console.log(results.body[1].data);
 	// var file = Object.keys(results.body.data);
 	// console.log(results.body.data.file);	
 });
-
-
-}).listen(8080);
-
-
-
-
 
 
 
