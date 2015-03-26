@@ -1,5 +1,5 @@
 #maxJS
-Accessing Javascript APIs in MaxMSP
+creative & procedural examples of Javascript in MaxMSP
 
 
 -----------cycling74 Javascript Reference
