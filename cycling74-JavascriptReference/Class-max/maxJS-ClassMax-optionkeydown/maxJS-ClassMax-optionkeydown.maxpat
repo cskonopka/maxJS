@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 373.0, 118.0, 163.0, 216.0 ],
+		"openrect" : [ 590.0, 78.0, 546.0, 247.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -30,7 +30,7 @@
 		"boxanimatetime" : 200,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
+		"devicewidth" : 546.0,
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
@@ -38,26 +38,28 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-2",
+					"id" : "obj-14",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 16.0, 82.0, 22.0 ],
+					"patching_rect" : [ 8.0, 89.0, 184.0, 22.0 ],
 					"style" : "",
-					"text" : "postMessage"
+					"text" : "0"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-28",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 74.0, 34.0, 22.0 ],
+					"fontsize" : 24.0,
+					"id" : "obj-5",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 8.0, 13.0, 171.0, 35.0 ],
 					"style" : "",
-					"text" : "print"
+					"text" : "optionkeydown"
 				}
 
 			}
@@ -71,23 +73,24 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 48.0, 91.0, 22.0 ],
+					"patching_rect" : [ 8.0, 57.0, 200.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "maxJS-post.js",
+						"filename" : "maxJS-ClassMax-optionkeydown.js",
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "js maxJS-post.js"
+					"text" : "js maxJS-ClassMax-optionkeydown.js"
 				}
 
 			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-28", 0 ],
+					"destination" : [ "obj-14", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 17.5, 84.0, 182.5, 84.0 ],
 					"source" : [ "obj-15", 0 ]
 				}
 
@@ -97,14 +100,14 @@
 					"destination" : [ "obj-15", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-2", 0 ]
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "maxJS-post.js",
-				"bootpath" : "~/Documents/_ream/maxJS/cycling74-JavascriptReference/maxJS-post",
+				"name" : "maxJS-ClassMax-optionkeydown.js",
+				"bootpath" : "~/Documents/_ream/maxJS/cycling74-JavascriptReference/Class-max/maxJS-ClassMax-optionkeydown",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
