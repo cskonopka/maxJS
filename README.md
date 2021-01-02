@@ -1,4 +1,4 @@
-#maxJS
+# maxJS
 creative & procedural examples of Javascript in MaxMSP
 
 
@@ -10,7 +10,7 @@ bringtofront-sendtoback [methods: bringtofront() & sendtoback()]: example of how
 
 connectDisconnect [methods: connect() & disconnect()]: example of how to connect and disconnect two objects
 
-createDestroy1object & createDestroy10objects [methods: newobject() & remove()]: example of how to systemically create/destroy a sepcified number of objects
+createDestroy1object & createDestroy10objects [methods: newobject() & remove()]: example of how to systemically create/destroy a specified number of objects
 
 getnamed [methods: getnamed()]
 
