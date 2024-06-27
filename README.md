@@ -1,6 +1,9 @@
-#maxJS
-creative & procedural examples of Javascript in MaxMSP
 
+<h3 align="center">
+  <img height="50%" width="50%" src="https://github.com/cskonopka/maxJS/blob/master/maxjs-logo.png?raw=true"/>
+</h3>
+
+<p align="center"><em>creative & procedural examples of Javascript in MaxMSP </em></p> 
 
 -----------cycling74 Javascript Reference
 
@@ -23,7 +26,7 @@ userIterateDestroy [methods: newobject() & remove()]: example of how to create s
 
 MAAS [Mars Atmospheric Aggregation System] (http://marsweather.ingenology.com/)
 OMDB [Open Movie Database] (http://www.omdbapi.com/)
-Texas Death Row (https://raw.githubusercontent.com/timothyasp/death-penalty/master/texas_executions.min.json)
+Texas Death Row Inmpac[Texas Death Row] (https://raw.githubusercontent.com/timothyasp/death-penalty/master/texas_executions.min.json)
 
 
 
