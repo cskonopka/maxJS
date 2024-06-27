@@ -1,7 +1,6 @@
-
-<h3 align="center">
+<p align="center">
   <img height="50%" width="50%" src="https://github.com/cskonopka/maxJS/blob/master/maxjs-logo.png?raw=true"/>
-</h3>
+</p>
 
 <p align="center"><em>creative & procedural examples of Javascript in MaxMSP </em></p> 
 
